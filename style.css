@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
-    
 /* Louis */
 
 
@@ -58,6 +57,61 @@ input:last-child {
 }
 
 /* Paul */
+
+.margin_articles_accueil{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.article_accueil{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13%;
+}
+.article_accueil:nth-of-type(3){
+    margin-bottom: 6%;
+}
+
+
+.article_accueil h3{
+    margin-bottom: 1%;
+    align-self: center;
+
+}
+.article_accueil h4{
+    margin-bottom: 2%;
+    align-self: center;
+}
+
+.article_accueil a{
+    text-decoration: none;
+    color: black;
+}
+
+.image_texte_accueil{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+.image_texte_accueil p{
+    text-align: justify;
+}
+.image_texte_accueil img{
+    margin-bottom: 4%;
+    min-width: 100%;
+}
+
+.date_commentaires{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.button_anciens_articles{
+    align-self: flex-end;
+}
+
+
 
 
 /* Adiren */
