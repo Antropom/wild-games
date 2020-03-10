@@ -70,18 +70,25 @@
 body, html, header {
   height: 100%;
 }
+
 .bgtitle {
-  background-image: url("img/P1040491.jpg");
+  background-image: url("img/photo-of-person-typing-on-computer-keyboard-735911.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-section {
-  background-color: gray;
-  height: 1500px;
+h1 {
+  font-size: 4em;
+  color: #F76C6C;
+  display: block;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* Nicolas */
