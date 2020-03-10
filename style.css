@@ -6,17 +6,24 @@
 }
 
 /* Louis */
+.navhead {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #282828;
+}
 
 /* Menu burger */
 .menu-btn {
   display: block;
-  margin: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
   width: 36px;
   transform: translate(-50%, -50%);
 }
 
 .menu-btn:before, .menu-btn:after {
-  background-color: #000;
+  background-color: #C5C5C8;
   content: '';
   display: block;
   height: 4px;
@@ -24,7 +31,7 @@
 }
 
 .menu-btn:before {
-  box-shadow: 0 10px 0 #000;
+  box-shadow: 0 10px 0 #C5C5C8;
   margin-bottom: 16px;
 }
 
@@ -35,11 +42,6 @@
 
 .menu-btn:hover:after {
   transform: translateY(-10px) rotate(-45deg);
-}
-
-.navhead {
-  position: relative;
-  display: inline-block;
 }
 
 .dropdown {
@@ -57,6 +59,29 @@
 
 .navhead:hover .dropdown {
   display: block;
+}
+
+.dropdown a:hover {
+  background-color: #C5C5C8;
+  color: #282828;
+}
+
+/* Fin menu burger */
+body, html, header {
+  height: 100%;
+}
+.bgtitle {
+  background-image: url("img/P1040491.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section {
+  background-color: gray;
+  height: 1500px;
 }
 
 /* Nicolas */
