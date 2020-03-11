@@ -197,3 +197,38 @@ input:last-child {
 }
 
 /* Adiren */
+
+footer{
+    background-color:black;
+    text-align: center;
+    list-style-type: none;
+}
+
+div.newsletter{
+    color:white;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+label{
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+div.wildfinal{
+    font-weight: bold;
+    color: white;
+    text-transform:uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-block: 5px;
+}
