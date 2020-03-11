@@ -35,7 +35,6 @@
   margin-bottom: 16px;
 }
 
-
 .dropdown {
   display: none;
   background-color: #282828;
@@ -49,7 +48,6 @@
   text-decoration: none;
   display: block;
 }
-
 
 #navhead:target .dropdown {
   display: flex;
@@ -81,7 +79,6 @@
 }
 
 /* Recherche*/
-
 .btn-nav {
   height: 60px;
   width: 75%;
@@ -89,7 +86,6 @@
   left: 0;
   top: 0;
 }
-
 
 .targsearch {
   position: absolute;
@@ -119,9 +115,16 @@
 }
 
 /* Fin recherche */
-
-body, html, .headindex {
+body, html {
   height: 100%;
+}
+
+.headindex {
+  height: 100%;
+}
+
+.headindex-50 {
+  height: 50%;
 }
 
 .bgtitle {
@@ -236,7 +239,6 @@ hr {
   background: transparent;
 }
 
-
 textarea {
   height: 100px;
   margin-top: 10px;
@@ -290,16 +292,18 @@ textarea {
   max-width: 100%;
 }
 
-.date_commentaires_lirelasuite{
+.date_commentaires_lirelasuite {
   display: flex;
   flex-direction: column;
 }
+
 .date_commentaires {
   display: flex;
   justify-content: space-between;
   font-style: italic;
 }
-.button_lirelasuite{
+
+.button_lirelasuite {
   margin-bottom: 5%;
   border-radius: 1px;
   border: 1px solid;
@@ -319,42 +323,41 @@ textarea {
   border-radius: 1px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-size:small;
+  font-size: small;
 }
 
 /* Adiren */
-
-footer{
-    background-color:black;
-    text-align: center;
-    list-style-type: none;
+footer {
+  background-color: black;
+  text-align: center;
+  list-style-type: none;
 }
 
-div.newsletter{
-    color:white;
-    font-size: 17px;
-    margin-bottom: 8px;
+div.newsletter {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 8px;
 }
 
-label{
-    color: white;
+label {
+  color: white;
 }
 
-footer a{
-    text-decoration: none;
-    color: white;
-    flex-direction: column;
-    font-size: 15px;
+footer a {
+  text-decoration: none;
+  color: white;
+  flex-direction: column;
+  font-size: 15px;
 }
 
-div.wildfinal{
-    font-weight: bold;
-    color: white;
-    text-transform:uppercase;
-    font-size: 20px;
-    margin-bottom: 10px;
+div.wildfinal {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-input{
-    margin-block: 5px;
+input {
+  margin-block: 5px;
 }
