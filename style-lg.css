@@ -6,7 +6,25 @@
 
 
   /* Paul */
+  
+  .margin_articles_accueil{
+    padding: 10%;
+  }
 
+  .image_texte_accueil img {
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+  }
+
+  .balise_a_image{
+    width: 100%;
+    margin-right: 4%;
+  }
+  .contenu_articles{
+    max-width: 50%;
+    justify-content: space-around;
+  }
 
   /* Adiren */
 

@@ -14,14 +14,18 @@
     flex-direction: row;
   }
   .image_texte_accueil img {
-    min-width: 300px;
+    max-width: 50%;
     height: auto;
     margin: 0;
   }
+
+  .balise_a_image{
+    width: 100%;
+    margin-right: 4%;
+  }
   .contenu_articles{
-    min-width: 50%;
-    margin-left: 4%;
-    justify-content: space-between;
+    max-width: 50%;
+    justify-content: space-around;
   }
 
   .image_texte_accueil p{
