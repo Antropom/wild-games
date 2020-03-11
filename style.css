@@ -67,12 +67,20 @@
 }
 
 /* Fin menu burger */
+
+.recherche {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  margin: 0;
+}
+
 body, html, .headindex {
   height: 100%;
 }
 
 .bgtitle {
-  background-image: url("img/photo-of-person-typing-on-computer-keyboard-735911.jpg");
+  background-image: url("img/xbox-1602822_1920.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
