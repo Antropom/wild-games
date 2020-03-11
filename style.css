@@ -68,11 +68,31 @@
 
 /* Fin menu burger */
 
-.recherche {
+.targsearch {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  z-index: 2;
+}
+
+#recherche {
   position: absolute;
   right: 10px;
-  top: 13px;
-  margin: 0;
+  top: 8px;
+  display: none;
+}
+
+#loupe {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  height: 50px;
+}
+
+#recherche:target {
+  display: block;
 }
 
 body, html, .headindex {
