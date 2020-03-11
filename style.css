@@ -281,9 +281,15 @@ textarea {
   margin-bottom: 5%;
 }
 
+.contenu_articles{
+  display: flex;
+  flex-direction: column;
+}
+
 .image_texte_accueil p {
   text-align: justify;
   font-size: large;
+  margin-bottom: 7%;
 }
 
 .image_texte_accueil img {
@@ -292,19 +298,13 @@ textarea {
   max-width: 100%;
 }
 
-.date_commentaires_lirelasuite {
-  display: flex;
-  flex-direction: column;
-}
-
 .date_commentaires {
   display: flex;
   justify-content: space-between;
   font-style: italic;
 }
-
-.button_lirelasuite {
-  margin-bottom: 5%;
+.button_lirelasuite{
+  margin-bottom: 8%;
   border-radius: 1px;
   border: 1px solid;
   padding: 10px;
