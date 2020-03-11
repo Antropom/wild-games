@@ -127,16 +127,21 @@ hr {
   padding-top: 50px;
 }
 
-input, textarea {
+.inputform, .textareaform {
   width: 80%;
   margin-bottom: 20px;
   padding-left: 10px;
 }
 
-input:last-child {
+.inputform:last-child {
   width: 25%;
   align-self: flex-end;
   margin-right: 10%;
+}
+
+textarea {
+  height: 100px;
+  margin-top: 10px;
 }
 
 /* Paul */
