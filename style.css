@@ -156,6 +156,7 @@ h1 {
 
 .titrearticle {
   padding-top: 20px;
+  font-size: 150%;
 }
 
 .datearticle {
@@ -181,6 +182,61 @@ h1 {
   background: transparent;
   align-self: flex-start;
   margin-top: 20px;
+}
+
+.commentarticle {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.laissezcom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: red;
+  border: 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.pseudologocom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.pseudoavatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pseudocom {
+
+}
+
+.avatarcom {
+  border-radius: 180%;
+}
+
+.textareacom {
+  width: 70%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.envoicom {
+  border-radius: 1px;
+  border: 1px solid;
+  padding: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: transparent;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 3%;
 }
 
 .secabout {
@@ -224,16 +280,17 @@ hr {
   padding-left: 10px;
 }
 
-.inputform:last-child {
-  width: 25%;
-  align-self: flex-end;
-  margin-right: 10%;
+.envoiform {
   border-radius: 1px;
   border: 1px solid;
-  padding: 5px;
-  letter-spacing: 1px;
+  padding: 10px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   background: transparent;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 10%;
+  margin-bottom: 20px;
 }
 
 
