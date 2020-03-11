@@ -284,6 +284,7 @@ textarea {
 .contenu_articles{
   display: flex;
   flex-direction: column;
+  padding: 1px;
 }
 
 .image_texte_accueil p {
@@ -301,7 +302,7 @@ textarea {
 .date_commentaires {
   display: flex;
   justify-content: space-between;
-  font-style: italic;
+  font-style: oblique;
 }
 .button_lirelasuite{
   margin-bottom: 8%;

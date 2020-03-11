@@ -9,23 +9,25 @@
   .margin_articles_accueil{
     margin: 5%;
   }
+
   .image_texte_accueil{
     display: flex;
     flex-direction: row;
+    margin:0;
   }
   .image_texte_accueil img {
     max-width: 50%;
-    height: auto;
     margin: 0;
   }
 
   .balise_a_image{
-    width: 100%;
+    width: 50%;
     margin-right: 4%;
   }
   .contenu_articles{
     max-width: 50%;
     justify-content: space-around;
+    padding: 0;
   }
 
   .image_texte_accueil p{
