@@ -6,7 +6,7 @@
 }
 
 /* Louis */
-.navhead {
+#navhead {
   position: fixed;
   height: 60px;
   width: 100%;
@@ -35,19 +35,12 @@
   margin-bottom: 16px;
 }
 
-.menu-btn:hover:before {
-  box-shadow: 0 0 0 #fff;
-  transform: translateY(10px) rotate(45deg);
-}
-
-.menu-btn:hover:after {
-  transform: translateY(-10px) rotate(-45deg);
-}
 
 .dropdown {
   display: none;
   background-color: #282828;
   min-width: 50px;
+  width: 100%;
 }
 
 .dropdown a {
@@ -57,8 +50,29 @@
   display: block;
 }
 
-.navhead:hover .dropdown {
-  display: block;
+
+#navhead:target .dropdown {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#closetab:target, .dropdown {
+  display: none;
+}
+
+.dropdown li {
+  width: 100%;
+  list-style: none;
+}
+
+.dropdown li:nth-last-child(-n+2) {
+  width: 75%;
+}
+
+.dropdown li:last-child {
+  width: 25%;
+  text-align: center;
 }
 
 .dropdown a:hover {
@@ -66,13 +80,52 @@
   color: #282828;
 }
 
-/* Fin menu burger */
+/* Recherche*/
+
+.btn-nav {
+  height: 60px;
+  width: 75%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+.targsearch {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  z-index: 2;
+}
+
+#recherche {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  display: none;
+}
+
+#loupe {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  height: 50px;
+}
+
+#recherche:target {
+  display: block;
+}
+
+/* Fin recherche */
+
 body, html, .headindex {
   height: 100%;
 }
 
 .bgtitle {
-  background-image: url("img/photo-of-person-typing-on-computer-keyboard-735911.jpg");
+  background-image: url("img/xbox-1602822_1920.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
