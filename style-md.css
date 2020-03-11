@@ -1,41 +1,75 @@
 @media (min-width: 768px) {
-  /* Louis */
 
+  /* Louis */
+  @media (max-width: 991px) {
+    #navhead {
+      height: 100px;
+    }
+
+    .menu-btn {
+      margin-top: 50px;
+      margin-left: 55px;
+    }
+
+    #loupe {
+      top: 25px;
+    }
+
+    #recherche {
+      width: 250px;
+      right: 20px;
+      top: 20px;
+      height: 50px;
+    }
+
+    .btn-nav {
+      height: 100px;
+    }
+
+    .targsearch {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .dropdown a {
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 7em;
+  }
 
   /* Nicolas */
-
-
   /* Paul */
-  .margin_articles_accueil{
+  .margin_articles_accueil {
     margin: 5%;
   }
-  .image_texte_accueil{
+
+  .image_texte_accueil {
     display: flex;
     flex-direction: row;
   }
+
   .image_texte_accueil img {
     min-width: 300px;
     height: auto;
     margin: 0;
   }
-  .contenu_articles{
+
+  .contenu_articles {
     min-width: 50%;
     margin-left: 4%;
     justify-content: space-between;
   }
 
-  .image_texte_accueil p{
+  .image_texte_accueil p {
     margin-bottom: 0%;
   }
 
-  .button_lirelasuite{
+  .button_lirelasuite {
     margin-bottom: 0%;
   }
-
-  
-
 
   /* Adiren */
-
 }
-
