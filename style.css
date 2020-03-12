@@ -255,8 +255,8 @@ h1 {
   width: 75%;
   padding-top: 10px;
   padding-left: 10px;
-  border-radius: 5px;
-  border: 1px solid;
+  padding-right: 10px;
+  border: 1px solid #C5C5C8;
 }
 
 .envoicom {

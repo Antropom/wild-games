@@ -39,26 +39,17 @@
 
   /* Nicolas */
   .secarticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto;
     margin-left: 10%;
     margin-right: 10%;
   }
 
   .textareacom {
     width: 85%;
-    padding-top: 10px;
-    padding-left: 10px;
   }
 
   .comutilisateur {
     width: 85%;
-    padding-top: 10px;
-    padding-left: 10px;
     border-radius: 1px;
-    border: 1px solid;
   }
 
   /* Paul */
