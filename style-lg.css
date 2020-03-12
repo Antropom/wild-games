@@ -74,7 +74,7 @@
 
 
   /* Footer*/
-  .footerMain {
+  footer {
     flex-direction: row;
   }
 
@@ -86,7 +86,7 @@
     margin-bottom: inherit;
   }
 
-  .footerMain div:nth-child(2) {
+  footer div:nth-child(2) {
     order: -1;
   }
 

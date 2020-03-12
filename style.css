@@ -209,6 +209,7 @@ h1 {
   padding: 2% 2% 2% 2%;
   margin-bottom: 50px;
 }
+
 .pseudologocom {
   display: flex;
   flex-direction: row;
@@ -309,7 +310,6 @@ hr {
   margin-top: 10px;
 }
 
-
 .envoiform {
   border-radius: 1px;
   border: 1px solid;
@@ -322,7 +322,6 @@ hr {
   margin-right: 10%;
   margin-bottom: 20px;
 }
-
 
 /* Paul */
 .margin_articles_accueil {
@@ -362,7 +361,7 @@ hr {
   margin-bottom: 5%;
 }
 
-.contenu_articles{
+.contenu_articles {
   display: flex;
   flex-direction: column;
   padding: 1px;
@@ -385,7 +384,8 @@ hr {
   justify-content: space-between;
   font-style: oblique;
 }
-.button_lirelasuite{
+
+.button_lirelasuite {
   margin-bottom: 8%;
   border-radius: 1px;
   border: 1px solid;
@@ -408,8 +408,7 @@ hr {
   font-size: small;
 }
 
-/* Adiren */
-
+/* Footer */
 footer, footer a, footer li {
   background-color: #282828;
   color: #FFF;
@@ -423,7 +422,7 @@ footer li, footer a {
   padding: 5px;
 }
 
-.footerMain, .footer2, .footer1, .footer3 {
+footer, .footer2, .footer1, .footer3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -433,7 +432,6 @@ footer li, footer a {
 .footer2, .footer1, .footer3 {
   margin: 12px;
 }
-
 
 .footer3 {
   margin-bottom: 40px;
