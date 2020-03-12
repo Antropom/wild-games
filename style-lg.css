@@ -32,7 +32,23 @@
     width: 150px;
   }
   /* Nicolas */
+.laissezcom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  }
 
+.pseudologocom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-right: 2%;
+  }
 
   /* Paul */
   

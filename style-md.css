@@ -41,6 +41,20 @@
   }
 
   /* Nicolas */
+.secarticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}  
+
+.textareacom {
+  width: 85%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
   /* Paul */
   .margin_articles_accueil {
     margin: 5%;
