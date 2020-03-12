@@ -65,31 +65,23 @@
   .margin_articles_accueil {
     margin: 5%;
   }
-
   .image_texte_accueil {
-    display: flex;
     flex-direction: row;
     align-items: center;
   }
-
   .image_texte_accueil img {
     margin: 0;
   }
-
   .balise_a_image {
     width: 50%;
     margin-right: 3%;
   }
-
   .contenu_articles {
     max-width: 47%;
-    justify-content: space-between;
   }
-
   .image_texte_accueil p {
     margin-bottom: 0%;
   }
-
   .button_lirelasuite {
     margin: 10%;
   }
