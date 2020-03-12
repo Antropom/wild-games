@@ -66,13 +66,36 @@
   }
 
   /* Paul */
-  
+
   .margin_articles_accueil {
       padding-left: 7%;
       padding-right: 7%;
   }
 
 
-  /* Adiren */
+  /* Footer*/
+  .footerMain {
+    flex-direction: row;
+  }
+
+  .footer2 {
+    order: -2;
+  }
+
+  .footer3 {
+    margin-bottom: inherit;
+  }
+
+  .footerMain div:nth-child(2) {
+    order: -1;
+  }
+
+  .verticalLine {
+    display: block;
+    width: 1px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    height: 125px;
+  }
 
 }
