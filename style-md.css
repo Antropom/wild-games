@@ -60,22 +60,20 @@
   .image_texte_accueil{
     display: flex;
     flex-direction: row;
-    margin:0;
+    align-items: center;
   }
 
   .image_texte_accueil img {
-    max-width: 50%;
     margin: 0;
   }
 
   .balise_a_image{
     width: 50%;
-    margin-right: 4%;
+    margin-right: 3%;
   }
   .contenu_articles{
-    max-width: 50%;
-    justify-content: space-around;
-    padding: 0;
+    max-width: 47%;
+    justify-content: space-between;
   }
 
   .image_texte_accueil p {
@@ -83,7 +81,7 @@
   }
 
   .button_lirelasuite {
-    margin-bottom: 0%;
+    margin: 10%;
   }
 
   /* Adiren */
