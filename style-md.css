@@ -43,15 +43,10 @@
     margin-right: 10%;
   }
 
-  .textareacom {
+  .textareacom, .comutilisateur {
     width: 85%;
   }
-
-  .comutilisateur {
-    width: 85%;
-    border-radius: 1px;
-  }
-
+  
   /* Paul */
   .margin_articles_accueil {
     margin: 5%;

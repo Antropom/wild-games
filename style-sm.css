@@ -2,13 +2,8 @@
 
   /* Louis */
   /* Nicolas */
-  .textareacom {
+  .textareacom, .comutilisateur {
     width: 80%;
-  }
-
-  .comutilisateur {
-    width: 80%;
-    border-radius: 1px;
   }
 
   /* Paul */

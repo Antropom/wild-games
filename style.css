@@ -217,13 +217,7 @@ h1 {
   box-shadow: 1px 1px 1px 0px rgba(143,143,143,1);
 }
 
-.pseudologocom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.pseudologocomexistant {
+.pseudologocom, .pseudologocomexistant {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -295,6 +289,7 @@ h3 {
 
 hr {
   margin-top: 50px;
+  width: 60%;
 }
 
 .formulaire {
