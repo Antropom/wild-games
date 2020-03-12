@@ -65,13 +65,10 @@
   }
 
   /* Paul */
-
   .margin_articles_accueil {
       padding-left: 7%;
       padding-right: 7%;
   }
-
-
   /* Footer*/
   footer {
     flex-direction: row;
