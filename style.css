@@ -9,6 +9,10 @@ h3, h3 a, h4, h5, .dropdown a, footer p, footer li, footer a {
   font-family: 'Raleway', sans-serif;
 }
 
+p {
+  font-size: 1rem;
+}
+
 li {
   list-style: none;
 }
@@ -171,7 +175,6 @@ h1 {
 
 .titrearticle {
   padding-top: 20px;
-  font-size: 150%;
 }
 
 .datearticle {
@@ -465,7 +468,7 @@ footer input {
 
 /* Boutons hover */
 
-.button_anciens_articles:hover, .button_lirelasuite:hover, .envoicom:hover, .envoiform:hover {
+.button_anciens_articles:hover, .button_lirelasuite:hover, .envoicom:hover, .envoiform:hover, .share:hover {
   background-color: #DCDCDC;
   color: #000;
 }
