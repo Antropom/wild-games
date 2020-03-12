@@ -202,8 +202,13 @@ h1 {
   padding: 2% 2% 2% 2%;
   margin-bottom: 50px;
 }
-
 .pseudologocom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pseudologocomexistant {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -216,14 +221,27 @@ h1 {
   align-items: center;
 }
 
+.pseudocom {
+  margin-bottom: 10px;
+}
+
 .avatarcom {
-  border-radius: 180%;
+  max-width: 70px;
+  border-radius: 50%;
 }
 
 .textareacom {
   width: 75%;
   padding-top: 10px;
   padding-left: 10px;
+}
+
+.comutilisateur {
+  width: 75%;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 1px;
+  border: 1px solid;
 }
 
 .envoicom {
