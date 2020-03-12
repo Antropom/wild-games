@@ -337,60 +337,50 @@ hr {
   display: flex;
   flex-direction: column;
 }
-
 .article_accueil {
   display: flex;
   flex-direction: column;
   margin-bottom: 15%;
 }
-
 .article_accueil h3 {
   margin-bottom: 2%;
   align-self: center;
   text-align: center;
 }
-
 .article_accueil h4 {
   margin-bottom: 4%;
   align-self: center;
   font-style: oblique;
 }
-
 .article_accueil a {
   text-decoration: none;
   color: black;
 }
-
 .image_texte_accueil {
   display: flex;
   flex-direction: column;
   margin-bottom: 5%;
 }
-
 .contenu_articles {
   display: flex;
   flex-direction: column;
   padding: 1px;
 }
-
 .image_texte_accueil p {
   text-align: justify;
   font-size: large;
   margin-bottom: 7%;
 }
-
 .image_texte_accueil img {
   margin-bottom: 3%;
   min-width: 100%;
   max-width: 100%;
 }
-
 .date_commentaires {
   display: flex;
   justify-content: space-between;
   font-style: oblique;
 }
-
 .button_lirelasuite {
   margin-bottom: 8%;
   border-radius: 1px;
@@ -402,7 +392,6 @@ hr {
   width: 50%;
   align-self: center;
 }
-
 .button_anciens_articles {
   align-self: flex-end;
   background: transparent;
