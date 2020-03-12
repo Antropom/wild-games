@@ -100,7 +100,8 @@
 #recherche {
   position: absolute;
   right: 10px;
-  top: 8px;
+  top: 10%;
+  bottom: 10%;
   display: none;
 }
 

@@ -16,10 +16,7 @@
     }
 
     #recherche {
-      width: 250px;
-      right: 20px;
-      top: 20px;
-      height: 50px;
+      height: 70%;
     }
 
     .btn-nav {
@@ -48,7 +45,7 @@
   width: auto;
   margin-left: 10%;
   margin-right: 10%;
-}  
+}
 
 .textareacom {
   width: 85%;
