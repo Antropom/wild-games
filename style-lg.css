@@ -33,35 +33,23 @@
   }
   /* Nicolas */
   .laissezcom {
-    display: flex;
     flex-direction: row;
-    width: 100%;
-    border: 1px solid;
     padding-bottom: 20px;
     margin-bottom: 20px;
     justify-content: space-between;
   }
 
   .pseudologocom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
     margin-right: 2%;
   }
 
   .pseudologocomexistant {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
   }
 
   .comutilisateur {
     width: 87%;
-    padding-top: 10px;
-    padding-left: 10px;
-    border: 1px solid #C5C5C8;
   }
 
   /* Paul */

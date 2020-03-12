@@ -217,13 +217,7 @@ h1 {
   box-shadow: 1px 1px 1px 0px rgba(143,143,143,1);
 }
 
-.pseudologocom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.pseudologocomexistant {
+.pseudologocom, .pseudologocomexistant {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -255,8 +249,8 @@ h1 {
   width: 75%;
   padding-top: 10px;
   padding-left: 10px;
-  border-radius: 5px;
-  border: 1px solid;
+  padding-right: 10px;
+  border: 1px solid #C5C5C8;
 }
 
 .envoicom {
@@ -295,6 +289,7 @@ h3 {
 
 hr {
   margin-top: 50px;
+  width: 60%;
 }
 
 .formulaire {
