@@ -1,4 +1,9 @@
 @media (min-width: 992px) {
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
   /* Louis */
   .menu-btn {
     display: none;
@@ -50,6 +55,19 @@
 
   .comutilisateur {
     width: 87%;
+  }
+
+  .secarticle {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .photogroupe, .descriptgroupe, .formulaire {
+    width: 50%;
+  }
+
+  hr {
+    width: 40%;
   }
 
   /* Paul */
