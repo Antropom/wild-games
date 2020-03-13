@@ -54,7 +54,7 @@
   }
 
   .comutilisateur {
-    width: 87%;
+    width: 75%;
   }
 
   .secarticle {
@@ -67,7 +67,11 @@
   }
 
   hr {
-    width: 40%;
+    width: 45%;
+  }
+
+  .pseudoavatar {
+    width: 25%;
   }
 
   /* Paul */
