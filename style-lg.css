@@ -79,6 +79,7 @@
       padding-left: 7%;
       padding-right: 7%;
   }
+
   /* Footer*/
   footer {
     flex-direction: row;
@@ -104,4 +105,12 @@
     height: 125px;
   }
 
+}
+
+/*Paul*/
+@media (min-width: 1250px) {
+  .margin_articles_accueil {
+    padding-left: 15%;
+    padding-right: 15%;
+}
 }
