@@ -1,17 +1,3 @@
-/*DarkMode*/
-:root {
-  --background-color: white;
-  --text-color: black;
-}
-[data-theme="dark"] {
-  --background-color: black;
-  --text-color: white;
-}
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -371,7 +357,7 @@ hr {
 
 .article_accueil a {
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
 }
 
 .image_texte_accueil {
@@ -496,4 +482,18 @@ footer input {
 .button_anciens_articles:hover, .button_lirelasuite:hover, .envoicom:hover, .envoiform:hover, .share:hover {
   background-color: #DCDCDC;
   color: #000;
+}
+
+/*DarkMode*/
+:root {
+  --background-color: rgba(255, 255, 255, 0.966);
+  --text-color: rgba(0, 0, 0, 0.973);
+}
+[data-theme="dark"] {
+  --background-color: rgba(0, 0, 0, 0.973);
+  --text-color: rgba(255, 255, 255, 0.966);
+}
+body{
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
