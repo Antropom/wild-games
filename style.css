@@ -56,6 +56,7 @@ a {
   background-color: #282828;
   min-width: 50px;
   width: 100%;
+  border-bottom: var(--border-bottom);
 }
 
 .dropdown a {
@@ -414,6 +415,10 @@ hr {
 }
 
 /* Footer */
+footer {
+  border-top: var(--border-top);
+}
+
 footer, footer a, footer li {
   background-color: #282828;
   color: #C5C5C8;
@@ -480,20 +485,29 @@ footer input {
 
 /* Boutons hover */
 .button_anciens_articles:hover, .button_lirelasuite:hover, .envoicom:hover, .envoiform:hover, .share:hover {
-  background-color: #DCDCDC;
+  background-color: #BBB;
   color: #000;
 }
 
 /*DarkMode*/
 :root {
-  --background-color: rgba(255, 255, 255, 0.966);
-  --text-color: rgba(0, 0, 0, 0.973);
+  --background-color: #FFF;
+  --text-color: #000;
+
 }
+
 [data-theme="dark"] {
-  --background-color: rgba(0, 0, 0, 0.973);
-  --text-color: rgba(255, 255, 255, 0.966);
+  --background-color: #282828;
+  --text-color: #DDD;
+  --border-top: 2px solid #FFF;
+  --border-bottom: 2px solid #FFF;
 }
-body{
+
+body {
   background-color: var(--background-color);
   color: var(--text-color);
+}
+
+.button_anciens_articles, .button_lirelasuite, .envoicom, .envoiform, .share {
+  background-color: #DDD;
 }
