@@ -46,7 +46,7 @@
   .textareacom, .comutilisateur {
     width: 85%;
   }
-  
+
   /* Paul */
   .margin_articles_accueil {
     margin: 5%;
@@ -73,5 +73,7 @@
     margin: 0%;
   }
 
-  /* Adiren */
+  .theme-switch-wrapper em {
+    display: block;
+  }
 }

@@ -569,3 +569,7 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.theme-switch-wrapper em {
+  display: none;
+}
