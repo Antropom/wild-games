@@ -37,7 +37,7 @@
     height: 80%;
   }
   /* Nicolas */
-  .laissezcom {
+  .laissezcom, .laissezcomcache {
     flex-direction: row;
     padding-bottom: 20px;
     margin-bottom: 20px;

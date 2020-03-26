@@ -11,3 +11,11 @@ function switchTheme(event) {
 
 const toggler = document.querySelector('#checkbox');
 toggler.addEventListener('change', switchTheme, false);
+
+
+
+function addCom(e) {
+    let myCom = document.getElementById('com').value;
+    document.getElementById('testcom').style.display = 'flex';
+    document.getElementById('nouveaucom').innerHTML = myCom;
+}
