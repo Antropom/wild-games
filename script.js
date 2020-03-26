@@ -16,9 +16,9 @@ toggler.addEventListener('change', switchTheme, false);
 /* Recherche filtrante */
 
 function runScript(e) {
-  const myIndex1 = ['resident', 'evil', 'resident evil 3 remake', 'resident evil remake', 'évil', 'résident']
-  const myIndex2 = ['cyberpunk', 'cyber punk', 'cyber', 'punk']
-  const myIndex3 = ['final fantasy 7 remake', 'final fantasy', 'final fantasy 7', 'final fantasy remake', 'final', 'fantasy']
+  const myIndex1 = ['resident', 'evil', 'resident evil 3 remake', 'resident evil remake', 'évil', 'résident', 'res', 'resi', 'resid', 'reside', 'residen']
+  const myIndex2 = ['cyberpunk', 'cyber punk', 'cyber', 'punk', 'cyb', 'cybe', 'cyberp', 'cyberpu', 'cyberpun']
+  const myIndex3 = ['final fantasy 7 remake', 'final fantasy', 'final fantasy 7', 'final fantasy remake', 'final', 'fantasy', 'fin', 'fina']
   const art1 = document.getElementById('search1')
   const art2 = document.getElementById('search2')
   const art3 = document.getElementById('search3')
