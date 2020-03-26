@@ -14,7 +14,7 @@
   }
 
   .dropdown {
-    display: flex;
+    display: flex !important;
   }
 
   .dropdown li, .dropdown li:nth-last-child(-n+2) {
@@ -34,6 +34,7 @@
   }
 
   #recherche {
+    top: 10%;
     height: 80%;
   }
   /* Nicolas */
