@@ -2,78 +2,60 @@
 
   /* Louis */
   @media (max-width: 991px) {
-    #navhead {
-      height: 100px;
+
+    .dropdown a {
+      font-size: 1.5em;
     }
 
-    .menu-btn {
-      margin-top: 50px;
-      margin-left: 55px;
+    h1 {
+      font-size: 7em;
     }
 
-    #loupe {
-      top: 25px;
+    /* Nicolas */
+    .secarticle {
+      margin-left: 10%;
+      margin-right: 10%;
     }
 
-    #recherche {
-      height: 70%;
+    .textareacom,
+    .comutilisateur {
+      width: 85%;
     }
 
-    .btn-nav {
-      height: 100px;
+    /* Paul */
+    .margin_articles_accueil {
+      margin: 5%;
     }
 
-    .targsearch {
-      height: 100px;
-      width: 100px;
+    .image_texte_accueil {
+      flex-direction: row;
+      align-items: stretch;
     }
-  }
 
-  .dropdown a {
-    font-size: 1.5em;
-  }
+    .image_texte_accueil img {
+      margin: 0;
+    }
 
-  h1 {
-    font-size: 7em;
-  }
+    .balise_a_image {
+      width: 50%;
+      margin-right: 3%;
+    }
 
-  /* Nicolas */
-  .secarticle {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+    .contenu_articles {
+      max-width: 47%;
+      justify-content: space-around;
+    }
 
-  .textareacom, .comutilisateur {
-    width: 85%;
-  }
+    .image_texte_accueil p {
+      margin-bottom: 0%;
+    }
 
-  /* Paul */
-  .margin_articles_accueil {
-    margin: 5%;
-  }
-  .image_texte_accueil {
-    flex-direction: row;
-    align-items: stretch;
-  }
-  .image_texte_accueil img {
-    margin: 0;
-  }
-  .balise_a_image {
-    width: 50%;
-    margin-right: 3%;
-  }
-  .contenu_articles {
-    max-width: 47%;
-    justify-content: space-around;
-  }
-  .image_texte_accueil p {
-    margin-bottom: 0%;
-  }
-  .button_lirelasuite {
-    margin: 0%;
-  }
+    .button_lirelasuite {
+      margin: 0%;
+    }
 
-  .theme-switch-wrapper em {
-    display: block;
+    .theme-switch-wrapper em {
+      display: block;
+    }
   }
 }

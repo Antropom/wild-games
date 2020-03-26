@@ -69,38 +69,11 @@ a {
 
 #navhead:target .dropdown {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  animation-name: dropdown;
-  animation-duration: 500ms;
-}
-
-@keyframes dropdown {
-  from {
-    height: 0px;
-    opacity: 0;
-  }
-
-  50% {
-    height: 310px;
-  }
-
-  to {
-    opacity: 1;
-  }
 }
 
 .dropdown li {
   width: 100%;
-}
-
-.dropdown li:nth-last-child(-n+2) {
-  width: 75%;
-}
-
-.dropdown li:last-child {
-  width: 25%;
-  text-align: center;
 }
 
 .dropdown a:hover {
@@ -117,21 +90,13 @@ a {
   top: 0;
 }
 
-.targsearch {
-  position: absolute;
-  top: 0;
-  right: 20px;
-  height: 60px;
-  width: 60px;
-  z-index: 2;
-}
-
 #recherche {
   position: absolute;
   right: 10px;
-  top: 10%;
+  top: 16px;
   bottom: 10%;
   display: none;
+  z-index: 20;
 }
 
 #loupe {
@@ -139,11 +104,9 @@ a {
   top: 5px;
   right: 30px;
   height: 50px;
+  z-index: 10;
 }
 
-#recherche:target {
-  display: block;
-}
 
 /* Fin recherche */
 body, html {
