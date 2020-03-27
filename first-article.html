@@ -82,15 +82,25 @@
     <div class="laissezcom">
       <div class="pseudologocom">
         <div class="pseudoavatar">
-          <h5 class="pseudocom">Pseudo</h5>
+          <h5 class="pseudocom">SpArTa</h5>
           <img class="avatarcom" src="img/assassin.jpeg" alt="Avatar de l'utilisateur">
         </div>
-        <textarea class="textareacom" placeholder="Votre commentaire"></textarea>
+        <textarea class="textareacom" id="com" placeholder="Votre commentaire"></textarea>
       </div>
-      <button class="envoicom" title="Envoyer">Envoyer</button>
+      <button class="envoicom" id="sendCom" onclick="return addCom(event)" title="Envoyer">Envoyer</button>
     </div>
 
     <h4 class="commentarticle">Commentaires</h4>
+
+    <div class="laissezcomcache" id="testcom">
+      <div class="pseudologocomexistant">
+        <div class="pseudoavatar">
+          <h5 class="pseudocom">SpArTa</h5>
+          <img class="avatarcom" src="img/assassin.jpeg" alt="Avatar de l'utilisateur">
+        </div>
+        <p class="comutilisateur" id="nouveaucom">Me tarde</p>
+      </div>
+    </div>
 
     <div class="laissezcom">
       <div class="pseudologocomexistant">
@@ -101,6 +111,7 @@
         <p class="comutilisateur">Ce jeu est une grosse daube</p>
       </div>
     </div>
+    
 
     <div class="laissezcom">
       <div class="pseudologocomexistant">

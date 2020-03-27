@@ -44,7 +44,7 @@ function runScript(e) {
         return false;
     }
 }
-Menu burger
+// Menu burger
 
 const btnNav = document.getElementsByClassName('menu-btn')[0];
 const dropdown = document.getElementsByClassName('dropdown')[0];
@@ -76,3 +76,9 @@ window.addEventListener('click', event => {
         loupe.style.display = 'block';
     }
 });
+
+function addCom(e) {
+    let myCom = document.getElementById('com').value;
+    document.getElementById('testcom').style.display = 'flex';
+    document.getElementById('nouveaucom').innerHTML = myCom;
+}

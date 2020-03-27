@@ -199,6 +199,18 @@ h1 {
   box-shadow: 1px 1px 1px 0px rgba(143, 143, 143, 1);
 }
 
+.laissezcomcache {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid;
+  padding: 2% 2% 2% 2%;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(143, 143, 143, 1);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(143, 143, 143, 1);
+  box-shadow: 1px 1px 1px 0px rgba(143, 143, 143, 1);
+}
+
 .pseudologocom, .pseudologocomexistant {
   display: flex;
   flex-direction: row;
