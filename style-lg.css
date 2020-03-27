@@ -79,6 +79,7 @@
   .margin_articles_accueil {
       padding-left: 7%;
       padding-right: 7%;
+      margin-top: 3%;
   }
 
   /* Footer*/
@@ -111,7 +112,8 @@
 /*Paul*/
 @media (min-width: 1250px) {
   .margin_articles_accueil {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 14%;
+    padding-right: 14%;
+    margin-top: 4%;
 }
 }
