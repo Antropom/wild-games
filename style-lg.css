@@ -14,15 +14,11 @@
   }
 
   .dropdown {
-    display: flex;
+    display: flex !important;
   }
 
   .dropdown li, .dropdown li:nth-last-child(-n+2) {
     width: 15%;
-  }
-
-  .dropdown li:last-child {
-    display: none;
   }
 
   .dropdown a{
@@ -34,10 +30,11 @@
   }
 
   #recherche {
+    top: 10%;
     height: 80%;
   }
   /* Nicolas */
-  .laissezcom {
+  .laissezcom, .laissezcomcache {
     flex-direction: row;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -78,7 +75,9 @@
   .margin_articles_accueil {
       padding-left: 7%;
       padding-right: 7%;
+      margin-top: 3%;
   }
+
   /* Footer*/
   footer {
     flex-direction: row;
@@ -104,4 +103,13 @@
     height: 125px;
   }
 
+}
+
+/*Paul*/
+@media (min-width: 1250px) {
+  .margin_articles_accueil {
+    padding-left: 14%;
+    padding-right: 14%;
+    margin-top: 4%;
+}
 }
