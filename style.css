@@ -575,25 +575,35 @@ input:checked + .slider:before {
 }
   
 .popup{
-  margin: 10% auto;
-  width : 70%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  width : 250px;
+  text-align: center;
   background-color: rgb(243, 243, 243);
   padding: 1em;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
+
+.popup h2 {
+  font-family: 'Raleway', sans-serif;
+}
   
 .btnClose {
-  float: right;
+  position: absolute;
+  right: 5px;
+  top: 0;
   font-size:16pt;
   cursor: pointer;
   color: rgb(26, 26, 26);
 }
 .popupimage{
-  max-width: 15%;
-  display: flex;
-  flex-direction: row;
+  max-width: 90%;
   width: auto;
+  justify-self: center;
 
 }
 .popimage{
