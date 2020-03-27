@@ -322,7 +322,7 @@ hr {
 /* Paul */
 .margin_articles_accueil {
   margin: 5%;
-  margin-top: 10%;
+  margin-top: 0%;
   display: flex;
   flex-direction: column;
 }
