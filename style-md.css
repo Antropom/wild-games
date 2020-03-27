@@ -10,52 +10,53 @@
     h1 {
       font-size: 7em;
     }
-
-    /* Nicolas */
-    .secarticle {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-
-    .textareacom,
-    .comutilisateur {
-      width: 85%;
-    }
-
-    /* Paul */
-    .margin_articles_accueil {
-      margin: 5%;
-    }
-
-    .image_texte_accueil {
-      flex-direction: row;
-      align-items: stretch;
-    }
-
-    .image_texte_accueil img {
-      margin: 0;
-    }
-
-    .balise_a_image {
-      width: 50%;
-      margin-right: 3%;
-    }
-
-    .contenu_articles {
-      max-width: 47%;
-      justify-content: space-around;
-    }
-
-    .image_texte_accueil p {
-      margin-bottom: 0%;
-    }
-
-    .button_lirelasuite {
-      margin: 0%;
-    }
-
-    .theme-switch-wrapper em {
-      display: block;
-    }
   }
+
+  /* Nicolas */
+  .secarticle {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .textareacom,
+  .comutilisateur {
+    width: 85%;
+  }
+
+  /* Paul */
+  .margin_articles_accueil {
+    margin: 5%;
+  }
+
+  .image_texte_accueil {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .image_texte_accueil img {
+    margin: 0;
+  }
+
+  .balise_a_image {
+    width: 50%;
+    margin-right: 3%;
+  }
+
+  .contenu_articles {
+    max-width: 47%;
+    justify-content: space-around;
+  }
+
+  .image_texte_accueil p {
+    margin-bottom: 0%;
+  }
+
+  .button_lirelasuite {
+    margin: 0%;
+  }
+
+  .theme-switch-wrapper em {
+    display: block;
+  }
+
 }
