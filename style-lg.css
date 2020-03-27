@@ -21,10 +21,6 @@
     width: 15%;
   }
 
-  .dropdown li:last-child {
-    display: none;
-  }
-
   .dropdown a{
     text-align: center;
   }
