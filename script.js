@@ -12,7 +12,6 @@ const toggler = document.querySelector('#checkbox');
 toggler.addEventListener('change', switchTheme, false);
 
 
-<<<<<<< HEAD
 /* Recherche filtrante */
 
 function runScript(e) {
@@ -83,7 +82,6 @@ function addCom(e) {
     document.getElementById('testcom').style.display = 'flex';
     document.getElementById('nouveaucom').innerHTML = myCom;
 }
-=======
 
 /*Pop-up*/
 var share = document.getElementById('share');
@@ -98,4 +96,3 @@ btnClose.addEventListener('click',closeModal);
 function closeModal() {
 overlay.style.display='none';
 };
->>>>>>> popup
